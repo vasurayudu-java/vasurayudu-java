@@ -77,14 +77,12 @@
 
 ## 🚀 Featured Projects
 
-> Personal projects that show the patterns I use at work: event-driven microservices, batch migration, serverless processing and full-stack apps.
+> Personal projects that show the patterns I use at work: event-driven microservices and serverless processing.
 
 | Project | What it does | Stack |
 |---|---|---|
 | [**account-events-service**](https://github.com/vasurayudu-java/account-events-service) | Banking account microservice that publishes account and transaction events to Kafka, with retry and a dead-letter topic | Java 21 · Spring Boot · Kafka · PostgreSQL · Docker |
-| [**batch-data-migration**](https://github.com/vasurayudu-java/batch-data-migration) | Restartable Spring Batch job that migrates legacy CSV records, validates them and produces a reconciliation report | Java 21 · Spring Batch · PostgreSQL · Docker |
 | [**vendor-feed-processor**](https://github.com/vasurayudu-java/vendor-feed-processor) | Serverless pipeline: vendor file lands in S3, then Lambda, SQS, a processor and DynamoDB, with a DLQ | Java 21 · AWS Lambda · SQS · S3 · DynamoDB · SAM |
-| [**banking-ops-dashboard**](https://github.com/vasurayudu-java/banking-ops-dashboard) | React dashboard and secured Spring Boot API for viewing accounts and transactions | React · Vite · Spring Boot · Spring Security (JWT) |
 
 ## 📄 Resume
 
